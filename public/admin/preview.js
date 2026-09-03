@@ -17,13 +17,13 @@
   function shell(content, active) {
     return h('div', { className: 'preview-site' },
       h('header', { className: 'preview-header' },
-        h('span', { className: 'preview-logo' }, 'Studio'),
+        h('span', { className: 'preview-logo' }, 'Art Factory Lines'),
         h('nav', {}, ['Artworks', 'About', 'Contact'].map(function (item) {
           return h('span', { className: item.toLowerCase() === active ? 'active' : '', key: item }, item);
         }))
       ),
       content,
-      h('footer', { className: 'preview-footer' }, h('span', { className: 'preview-logo' }, 'Studio'), h('span', {}, 'All rights reserved'))
+      h('footer', { className: 'preview-footer' }, h('span', { className: 'preview-logo' }, 'Art Factory Lines'), h('span', {}, 'All rights reserved'))
     );
   }
 
@@ -61,7 +61,7 @@
     render: function () {
       var entry = this.props.entry;
       return shell(h('main', { className: 'preview-main' },
-        h('div', { className: 'preview-crumb' }, 'Studio / ', h('b', {}, 'About')),
+        h('div', { className: 'preview-crumb' }, 'Art Factory Lines / ', h('b', {}, 'About')),
         h('section', { className: 'preview-about' },
           h('div', { className: 'preview-photo' }, imageUrl(this.props, 'photo') ? h('img', { src: imageUrl(this.props, 'photo'), alt: value(entry, 'photoAlt') }) : h('span', {}, 'Choose a portrait')),
           h('article', { className: 'preview-story' }, h('small', {}, 'About the artist'), h('h1', {}, value(entry, 'name', 'Artist name')), h('p', { className: 'preview-intro' }, value(entry, 'introduction')), h('div', { className: 'preview-body' }, this.props.widgetFor('body')), h('span', { className: 'preview-link' }, 'Get in touch →'))
@@ -75,7 +75,7 @@
       var entry = this.props.entry;
       var rows = [['Phone', value(entry, 'phone')], ['Email', value(entry, 'email')], ['Instagram', 'View profile ↗'], ['Facebook', 'View profile ↗']];
       return shell(h('main', { className: 'preview-main preview-contact' },
-        h('div', { className: 'preview-crumb' }, 'Studio / ', h('b', {}, 'Contact')),
+        h('div', { className: 'preview-crumb' }, 'Art Factory Lines / ', h('b', {}, 'Contact')),
         h('section', { className: 'preview-contact-layout' },
           h('div', {}, h('small', {}, 'Contact'), h('h1', {}, value(entry, 'heading', 'Let’s talk about art.'))),
           h('div', { className: 'preview-contact-details' }, h('p', { className: 'preview-intro' }, value(entry, 'introduction')), h('dl', {}, rows.map(function (row) { return h('div', { key: row[0] }, h('dt', {}, row[0]), h('dd', {}, row[1])); })))
