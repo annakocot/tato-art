@@ -19,6 +19,6 @@ edition: Limited Edition
 certificate: Certificate of Authenticity included
 price: 850 zł
 sold: false
-featured: false
+featured: true
 order: 2
 ---
