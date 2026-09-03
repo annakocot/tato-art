@@ -1,15 +1,23 @@
 ---
-title: Soft Architecture
-artworkId: SA-2026-002
-image: ../../assets/uploads/soft-architecture.svg
-alt: Warm abstract composition in ochre, clay, and charcoal
-description: Architectural shapes soften into a warm, tactile landscape.
+title: Poza zasięgiem / Out of Range
+artworkId: DK-2026-003
+image: ../../assets/uploads/wednesday-2602026-morning-0744.png
+alt: "Warm abstract composition "
+description: „Poza zasięgiem” to geometryczna kompozycja zbudowana z
+  intensywnego koloru, prostych znaków i rozproszonych struktur przypominających
+  fragmenty technicznego interfejsu. Kontrast pomiędzy chłodną szarością,
+  jaskrawą zielenią, żółcią i czernią tworzy wrażenie przestrzeni znajdującej
+  się gdzieś pomiędzy mapą, ekranem urządzenia a abstrakcyjnym pejzażem.
+  Pojedyncze punkty i znaki wyglądają jak informacje, których znaczenie zostało
+  oderwane od pierwotnego kontekstu. Obraz pozostawia otwarte pytanie o granicę
+  pomiędzy tym, co możemy zobaczyć i zarejestrować, a tym, co pozostaje poza
+  naszym zasięgiem.
 year: 2026
-medium: Mixed media on linen
-dimensions: 60 × 80 cm
-edition: Unique
+medium: Digital print on canvas
+dimensions: 50 x 70 cm
+edition: Limited Edition
 certificate: Certificate of Authenticity included
-price: €640
+price: 850 zł
 sold: false
 featured: false
 order: 2
