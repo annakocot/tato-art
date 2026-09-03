@@ -1,15 +1,21 @@
 ---
-title: Quiet Form
-artworkId: QF-2026-001
-image: ../../assets/uploads/quiet-form.svg
-alt: Abstract cream and black composition with a cobalt blue circle
-description: A study in balance, texture, and negative space.
+title: Błąd transmisji / Transmission Error
+artworkId: DK-2026-002
+image: ../../assets/uploads/wednesday-2602026-morning-0753.png
+alt: "Abstract "
+description: „Błąd transmisji” to kompozycja zbudowana na napięciu pomiędzy
+  intensywną czerwienią a fragmentarycznym, czarnym zapisem. Znaki, liczby i
+  przerwane struktury przypominają komunikat, który w trakcie przesyłania
+  utracił swoją pierwotną treść. Obraz odnosi się do współczesnego świata
+  nadmiaru informacji, w którym przekaz nie zawsze oznacza porozumienie. Mocny
+  kontrast i oszczędna forma nadają pracy wyrazisty, współczesny charakter,
+  pozostawiając jednocześnie widzowi przestrzeń do własnej interpretacji.
 year: 2026
-medium: Acrylic on canvas
-dimensions: 70 × 90 cm
-edition: Unique
+medium: Digital print on canvas
+dimensions: 50 x 70 cm
+edition: Limited Editin
 certificate: Certificate of Authenticity included
-price: €780
+price: 850 zł
 sold: false
 featured: true
 order: 1
