@@ -18,6 +18,6 @@ edition: Limited Edition
 certificate: Certyfikat autentyczności w zestawie
 price: 850 zł
 sold: false
-featured: false
+featured: true
 order: 4
 ---
