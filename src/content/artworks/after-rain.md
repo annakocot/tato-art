@@ -19,5 +19,5 @@ certificate: Certificate of Authenticity included
 price: 850 zł
 sold: false
 featured: true
-order: 3
+order: 4
 ---
