@@ -1,0 +1,27 @@
+---
+import { getCollection, render } from 'astro:content';
+import { Image } from 'astro:assets';
+const [profile] = await getCollection('about');
+const { Content } = await render(profile);
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width" />
+  <meta name="description" content={`About ${profile.data.name}`} /><title>About {profile.data.name} — Studio</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" /><link rel="stylesheet" href="/styles/global.css" />
+  <script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <header class="site-header"><a class="wordmark" href="/">Studio</a><nav aria-label="Main navigation"><a href="/#artworks">Artworks</a><a href="/about/" aria-current="page">About</a><a href="/contact/">Contact</a></nav></header>
+  <main class="about-page">
+    <div class="breadcrumb"><span>Studio</span><i>/</i><strong>About</strong></div>
+    <section class="about-hero">
+      <div class="about-photo"><Image src={profile.data.photo} alt={profile.data.photoAlt} widths={[600,900,1200]} sizes="(min-width: 800px) 48vw, 100vw" /></div>
+      <article class="about-story"><p class="section-label">About the artist</p><h1>{profile.data.name}</h1><p class="about-intro">{profile.data.introduction}</p><div class="story-copy"><Content /></div><a class="about-contact" href="/contact/">Get in touch →</a></article>
+    </section>
+  </main>
+  <footer><a class="wordmark" href="/">Studio</a><p>All rights reserved</p></footer>
+</body>
+</html>

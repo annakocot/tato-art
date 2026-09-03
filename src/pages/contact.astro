@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+const [entry] = await getCollection('contact');
+const contact = entry.data;
+const phoneHref = `tel:${contact.phone.replace(/[^+\d]/g, '')}`;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width" />
+  <meta name="description" content={contact.introduction} /><title>Contact — Studio</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" /><link rel="stylesheet" href="/styles/global.css" />
+  <script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <header class="site-header"><a class="wordmark" href="/">Studio</a><nav aria-label="Main navigation"><a href="/#artworks">Artworks</a><a href="/about/">About</a><a href="/contact/" aria-current="page">Contact</a></nav></header>
+  <main class="contact-page">
+    <div class="breadcrumb"><span>Studio</span><i>/</i><strong>Contact</strong></div>
+    <section class="contact-layout">
+      <div class="contact-heading"><p class="section-label">Contact</p><h1>{contact.heading}</h1></div>
+      <div class="contact-details">
+        <p class="contact-intro">{contact.introduction}</p>
+        <dl>
+          <div><dt>Phone</dt><dd><a href={phoneHref}>{contact.phone}</a></dd></div>
+          <div><dt>Email</dt><dd><a href={`mailto:${contact.email}`}>{contact.email}</a></dd></div>
+          <div><dt>Instagram</dt><dd><a href={contact.instagram} target="_blank" rel="noreferrer">View profile ↗</a></dd></div>
+          <div><dt>Facebook</dt><dd><a href={contact.facebook} target="_blank" rel="noreferrer">View profile ↗</a></dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+  <footer><a class="wordmark" href="/">Studio</a><p>All rights reserved</p></footer>
+</body>
+</html>

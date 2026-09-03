@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  ASTRO_TELEMETRY_DISABLED = "1"
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301

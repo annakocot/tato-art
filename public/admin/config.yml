@@ -1,0 +1,64 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: pl
+
+local_backend: true
+
+media_folder: src/assets/uploads
+public_folder: ../../assets/uploads
+
+site_url: https://example.com
+display_url: https://example.com
+logo_url: /favicon.svg
+
+collections:
+  - name: pages
+    label: Strony
+    files:
+      - name: about
+        label: Strona O mnie
+        file: src/content/about/profile.md
+        fields:
+          - { label: Imię i nazwisko artysty, name: name, widget: string }
+          - { label: Zdjęcie, name: photo, widget: image }
+          - { label: Opis zdjęcia, name: photoAlt, widget: string, hint: "Krótko opisz zdjęcie dla osób korzystających z czytników ekranu." }
+          - { label: Wprowadzenie, name: introduction, widget: text, hint: "Krótki akapit otwierający, wyświetlany większym tekstem." }
+          - { label: Historia, name: body, widget: markdown }
+      - name: contact
+        label: Strona Kontakt
+        file: src/content/contact/details.md
+        fields:
+          - { label: Nagłówek, name: heading, widget: string }
+          - { label: Wprowadzenie, name: introduction, widget: text }
+          - { label: Numer telefonu, name: phone, widget: string }
+          - { label: Adres e-mail, name: email, widget: string }
+          - { label: Adres profilu Instagram, name: instagram, widget: string }
+          - { label: Adres profilu Facebook, name: facebook, widget: string }
+  - name: artworks
+    label: Dzieła
+    label_singular: Dzieło
+    folder: src/content/artworks
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}} — {{price}}"
+    sortable_fields: [order, title, year]
+    fields:
+      - { label: Tytuł, name: title, widget: string }
+      - { label: Identyfikator dzieła, name: artworkId, widget: string, hint: "Na przykład: AW-2026-001" }
+      - { label: Zdjęcie dzieła, name: image, widget: image }
+      - { label: Opis zdjęcia, name: alt, widget: string, hint: "Opisz dzieło dla osób korzystających z czytników ekranu." }
+      - { label: Opis dzieła, name: description, widget: text }
+      - { label: Rok, name: year, widget: number, value_type: int, required: false }
+      - { label: Technika, name: medium, widget: string, required: false, hint: "Na przykład: Olej na płótnie" }
+      - { label: Wymiary, name: dimensions, widget: string, required: false, hint: "Na przykład: 60 × 80 cm" }
+      - { label: Rodzaj edycji, name: edition, widget: string, default: "Unikat" }
+      - { label: Certyfikat, name: certificate, widget: string, default: "Certyfikat autentyczności w zestawie" }
+      - { label: Cena, name: price, widget: string, required: false, hint: "Podaj walutę, na przykład: 650 €" }
+      - { label: Sprzedane, name: sold, widget: boolean, default: false }
+      - { label: Wyróżnione duże zdjęcie, name: featured, widget: boolean, default: false }
+      - { label: Kolejność wyświetlania, name: order, widget: number, value_type: int, default: 100 }
