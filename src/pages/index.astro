@@ -89,7 +89,10 @@ const email = 'studio@example.com';
       $('[data-position]').textContent = current + 1;
       document.querySelectorAll('.thumb').forEach((thumb, i) => { thumb.classList.toggle('active', i === current); thumb.setAttribute('aria-current', i === current ? 'true' : 'false'); });
     }
-    document.querySelectorAll('.thumb').forEach((thumb) => thumb.addEventListener('click', () => { showArtwork(Number(thumb.dataset.index)); document.querySelector('.artwork-view').scrollIntoView({behavior:'smooth'}); }));
+    document.querySelectorAll('.thumb').forEach((thumb) => thumb.addEventListener('click', () => {
+      showArtwork(Number(thumb.dataset.index));
+      document.querySelector('.artwork-view').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }));
     $('[data-previous]').addEventListener('click', () => showArtwork(current - 1)); $('[data-next]').addEventListener('click', () => showArtwork(current + 1));
     const gallery = $('[data-gallery]');
     const galleryPrevious = $('[data-gallery-previous]');
@@ -105,11 +108,14 @@ const email = 'studio@example.com';
     let dragStartX = 0;
     let dragStartScroll = 0;
     let galleryDragged = false;
+    let pressedThumbnail = null;
+    let suppressGalleryClick = false;
     gallery.addEventListener('pointerdown', (event) => {
       if (event.pointerType !== 'mouse') return;
       dragStartX = event.clientX;
       dragStartScroll = gallery.scrollLeft;
       galleryDragged = false;
+      pressedThumbnail = event.target.closest('.thumb');
       gallery.classList.add('dragging');
       gallery.setPointerCapture(event.pointerId);
     });
@@ -119,14 +125,27 @@ const email = 'studio@example.com';
       if (Math.abs(distance) > 5) galleryDragged = true;
       gallery.scrollLeft = dragStartScroll - distance;
     });
-    function finishGalleryDrag(event) {
+    function finishGalleryDrag(event, shouldOpen) {
       if (gallery.hasPointerCapture(event.pointerId)) gallery.releasePointerCapture(event.pointerId);
       gallery.classList.remove('dragging');
+      if (event.pointerType === 'mouse') {
+        suppressGalleryClick = true;
+        if (shouldOpen && !galleryDragged && pressedThumbnail) {
+          showArtwork(Number(pressedThumbnail.dataset.index));
+          document.querySelector('.artwork-view').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+      pressedThumbnail = null;
     }
-    gallery.addEventListener('pointerup', finishGalleryDrag);
-    gallery.addEventListener('pointercancel', finishGalleryDrag);
+    gallery.addEventListener('pointerup', (event) => finishGalleryDrag(event, true));
+    gallery.addEventListener('pointercancel', (event) => finishGalleryDrag(event, false));
     gallery.addEventListener('click', (event) => {
-      if (galleryDragged) { event.preventDefault(); event.stopPropagation(); galleryDragged = false; }
+      if (galleryDragged || suppressGalleryClick) {
+        event.preventDefault();
+        event.stopPropagation();
+        galleryDragged = false;
+        suppressGalleryClick = false;
+      }
     }, true);
     const lightbox = $('[data-lightbox]');
     function openLightbox() {
