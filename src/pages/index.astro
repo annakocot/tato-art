@@ -48,11 +48,15 @@ const email = 'studio@example.com';
     </nav>
     <section class="gallery-section" aria-label="Artwork gallery">
       <p class="section-label">Gallery</p>
-      <div class="gallery">{artworks.map((artwork, index) => (
-        <button class:list={["thumb", { active: index === 0 }]} type="button" data-index={index} aria-label={`View ${artwork.data.title}`}>
-          <Image src={artwork.data.image} alt="" widths={[360, 600]} sizes="(min-width: 800px) 25vw, 70vw" />
-        </button>
-      ))}</div>
+      <div class="gallery-frame">
+        <button class="gallery-arrow gallery-arrow--previous" type="button" data-gallery-previous aria-label="Previous gallery artworks" hidden={artworks.length <= 4}>←</button>
+        <div class="gallery" data-gallery>{artworks.map((artwork, index) => (
+          <button class:list={["thumb", { active: index === 0 }]} type="button" data-index={index} aria-label={`View ${artwork.data.title}`}>
+            <Image src={artwork.data.image} alt="" widths={[360, 600]} sizes="(min-width: 800px) 22vw, 70vw" />
+          </button>
+        ))}</div>
+        <button class="gallery-arrow gallery-arrow--next" type="button" data-gallery-next aria-label="Next gallery artworks" hidden={artworks.length <= 4}>→</button>
+      </div>
     </section>
   </main>
   <dialog class="lightbox" data-lightbox aria-label="Full-screen artwork">
@@ -69,6 +73,8 @@ const email = 'studio@example.com';
       current = (index + artworks.length) % artworks.length;
       const artwork = artworks[current];
       const heroImage = $('[data-hero-image]');
+      heroImage.removeAttribute('srcset');
+      heroImage.removeAttribute('sizes');
       heroImage.src = artwork.image;
       heroImage.alt = artwork.alt;
       $('[data-hero]').setAttribute('aria-label', `View ${artwork.title} full screen`);
@@ -85,6 +91,43 @@ const email = 'studio@example.com';
     }
     document.querySelectorAll('.thumb').forEach((thumb) => thumb.addEventListener('click', () => { showArtwork(Number(thumb.dataset.index)); document.querySelector('.artwork-view').scrollIntoView({behavior:'smooth'}); }));
     $('[data-previous]').addEventListener('click', () => showArtwork(current - 1)); $('[data-next]').addEventListener('click', () => showArtwork(current + 1));
+    const gallery = $('[data-gallery]');
+    const galleryPrevious = $('[data-gallery-previous]');
+    const galleryNext = $('[data-gallery-next]');
+    function galleryStep() {
+      const thumbnail = gallery.querySelector('.thumb');
+      return thumbnail ? thumbnail.getBoundingClientRect().width + 16 : 0;
+    }
+    if (galleryPrevious && galleryNext) {
+      galleryPrevious.addEventListener('click', () => gallery.scrollBy({ left: -galleryStep(), behavior: 'smooth' }));
+      galleryNext.addEventListener('click', () => gallery.scrollBy({ left: galleryStep(), behavior: 'smooth' }));
+    }
+    let dragStartX = 0;
+    let dragStartScroll = 0;
+    let galleryDragged = false;
+    gallery.addEventListener('pointerdown', (event) => {
+      if (event.pointerType !== 'mouse') return;
+      dragStartX = event.clientX;
+      dragStartScroll = gallery.scrollLeft;
+      galleryDragged = false;
+      gallery.classList.add('dragging');
+      gallery.setPointerCapture(event.pointerId);
+    });
+    gallery.addEventListener('pointermove', (event) => {
+      if (!gallery.hasPointerCapture(event.pointerId)) return;
+      const distance = event.clientX - dragStartX;
+      if (Math.abs(distance) > 5) galleryDragged = true;
+      gallery.scrollLeft = dragStartScroll - distance;
+    });
+    function finishGalleryDrag(event) {
+      if (gallery.hasPointerCapture(event.pointerId)) gallery.releasePointerCapture(event.pointerId);
+      gallery.classList.remove('dragging');
+    }
+    gallery.addEventListener('pointerup', finishGalleryDrag);
+    gallery.addEventListener('pointercancel', finishGalleryDrag);
+    gallery.addEventListener('click', (event) => {
+      if (galleryDragged) { event.preventDefault(); event.stopPropagation(); galleryDragged = false; }
+    }, true);
     const lightbox = $('[data-lightbox]');
     function openLightbox() {
       // @ts-ignore `artworks` is injected by Astro's define:vars directive.
