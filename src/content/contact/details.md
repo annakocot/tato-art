@@ -1,8 +1,10 @@
 ---
-heading: Let’s talk about art.
-introduction: For artwork enquiries, studio visits, commissions, or anything else, please get in touch directly.
-phone: +48 000 000 000
-email: studio@example.com
-instagram: https://instagram.com/
-facebook: https://facebook.com/
+heading: " Porozmawijmy o  sztuce"
+introduction: Sztuka zaczyna się od kontaktu. Jeśli któraś z prac do Ciebie
+  przemawia, napisz do mnie. Chętnie odpowiem na pytania dotyczące dostępnych
+  prac, zamówień indywidualnych lub mojego procesu twórczego.
+phone: +48 512 991 990
+email: dariuszkocot@gmail.com
+instagram: https://instagram.com/dar_darecky
+facebook: https://facebook.com/artfactorylines
 ---

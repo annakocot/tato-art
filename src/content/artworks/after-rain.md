@@ -1,16 +1,23 @@
 ---
-title: After Rain
-artworkId: AR-2025-003
-image: ../../assets/uploads/after-rain.svg
+title: Zakłócenie / Disruption
+artworkId: DK-2026-001
+image: ../../assets/uploads/zaklucenie.png
 alt: Minimal landscape in dark green and muted blush
-description: A quiet landscape remembered just after the weather clears.
-year: 2025
-medium: Oil on canvas
+description: „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście pustej
+  przestrzeni z niewielkim, intensywnym skupiskiem koloru, znaków i fragmentów
+  informacji. Centralna forma przypomina uszkodzony cyfrowy komunikat — coś, co
+  miało być czytelne, lecz w trakcie przekazu zostało zniekształcone.
+  Rozproszone liczby, symbole i niedopowiedzenia budują napięcie między
+  porządkiem a przypadkiem, ciszą a nadmiarem bodźców. To praca o komunikacji w
+  świecie pełnym informacji, w którym coraz więcej widzimy, ale niekoniecznie
+  coraz więcej rozumiemy.
+year: 2026
+medium: Digital print
 dimensions: 50 × 70 cm
-edition: Unique
+edition: Limited edition
 certificate: Certificate of Authenticity included
-price: €590
+price: 850 zł
 sold: false
 featured: true
-order: 3
+order: 4
 ---
