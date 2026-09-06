@@ -1,5 +1,5 @@
 ---
-title: Zakłócenie / Disruption
+title: " Disruption / Zakłócenie "
 artworkId: DK-2026-001
 image: ../../assets/uploads/zaklucenie.png
 alt: Minimal landscape in dark green and muted blush
