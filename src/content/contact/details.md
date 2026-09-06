@@ -1,5 +1,5 @@
 ---
-heading: " Porozmawijmy o  sztuce"
+heading: " Porozmawijmy o  mojej sztuce"
 introduction: Sztuka zaczyna się od kontaktu. Jeśli któraś z prac do Ciebie
   przemawia, napisz do mnie. Chętnie odpowiem na pytania dotyczące dostępnych
   prac, zamówień indywidualnych lub mojego procesu twórczego.
