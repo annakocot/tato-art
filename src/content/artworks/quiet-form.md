@@ -1,5 +1,5 @@
 ---
-title: Błąd transmisji / Transmission Error
+title: "Transmission Error / Błąd transmisji "
 artworkId: DK-2026-002
 image: ../../assets/uploads/wednesday-2602026-morning-0753.png
 alt: "Abstract "
