@@ -1,5 +1,5 @@
 ---
-title: Poza zasięgiem / Out of Range
+title: "Out of Range / Poza zasięgiem "
 artworkId: DK-2026-003
 image: ../../assets/uploads/wednesday-2602026-morning-0744.png
 alt: "Warm abstract composition "
