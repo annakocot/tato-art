@@ -17,7 +17,7 @@ medium: Digital Print
 dimensions: 50 x 70 cm
 edition: Unikat
 certificate: Certyfikat autentyczności w zestawie
-price: 8500 zł
+price: 850 zł
 sold: false
 featured: true
 order: 10
