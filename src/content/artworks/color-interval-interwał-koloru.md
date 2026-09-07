@@ -13,7 +13,7 @@ description: Kompozycja opiera się na rytmie pionowych pasów i dużych,
   pauzą — o tym, że znaczenie pojawia się nie tylko w samych formach, ale
   również w odległościach między nimi.
 year: 2026
-medium: Digital print
+medium: Fine art digital print on canvas
 dimensions: 50 x 70 cm
 edition: Unikat
 certificate: Certyfikat autentyczności w zestawie
