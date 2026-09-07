@@ -1,5 +1,5 @@
 ---
-title: Obiekt 21 / Object 21
+title: "Object 21 / Obiekt 21 "
 artworkId: DK-2026-004
 image: ../../assets/uploads/wednesday-2602026-morning-0736.png
 alt: abstract red yelow comosition

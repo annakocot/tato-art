@@ -1,5 +1,5 @@
 ---
-title: Zakłócenie / Disruption
+title: " Disruption / Zakłócenie "
 artworkId: DK-2026-001
 image: ../../assets/uploads/zaklucenie.png
 alt: Minimal landscape in dark green and muted blush
@@ -12,7 +12,7 @@ description: „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście
   świecie pełnym informacji, w którym coraz więcej widzimy, ale niekoniecznie
   coraz więcej rozumiemy.
 year: 2026
-medium: Digital print
+medium: Fine art digital print on canvas
 dimensions: 50 × 70 cm
 edition: Limited edition
 certificate: Certificate of Authenticity included

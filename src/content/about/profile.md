@@ -1,6 +1,6 @@
 ---
 name: Art.
-photo: ../../assets/uploads/img_20260903_220023617_mfnr~2.jpg
+photo: ../../assets/uploads/darek.png
 photoAlt: Portrait placeholder for the artist
 introduction: Art Factory Lines prezentuje oryginalne, unikatowe dzieła
   fizyczne, powstające w niezależnym i autorskim procesie twórczym.

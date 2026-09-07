@@ -1,5 +1,5 @@
 ---
-title: Poza zasięgiem / Out of Range
+title: "Out of Range / Poza zasięgiem "
 artworkId: DK-2026-003
 image: ../../assets/uploads/wednesday-2602026-morning-0744.png
 alt: "Warm abstract composition "
@@ -15,7 +15,7 @@ description: „Poza zasięgiem” to geometryczna kompozycja zbudowana z
 year: 2026
 medium: Digital print on canvas
 dimensions: 50 x 70 cm
-edition: Limited Edition
+edition: Fine art digital print on canvas
 certificate: Certificate of Authenticity included
 price: 850 zł
 sold: false
