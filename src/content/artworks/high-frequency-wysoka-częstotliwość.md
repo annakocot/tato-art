@@ -13,7 +13,7 @@ description: Powtarzające się punkty, rastry i zdeformowane struktury budują
   którym rytm, informacja i bodźce stają się tak intensywne, że same zaczynają
   tworzyć nowy porządek.
 year: 2026
-medium: Digital Print
+medium: Fine art digital print on canvas.
 dimensions: 50 x 70 cm
 edition: Unikat
 certificate: Certyfikat autentyczności w zestawie
