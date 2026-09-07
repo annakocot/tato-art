@@ -14,7 +14,7 @@ description: Warstwy zdeformowanego tekstu, surowej faktury i geometrycznych
 year: 2026
 medium: Digital Print
 dimensions: 50 x 70 cm
-edition: Unikat
+edition: " Fine art digital print on canvas"
 certificate: Certyfikat autentyczności w zestawie
 price: 850 zł
 sold: false
