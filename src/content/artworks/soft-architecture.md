@@ -15,7 +15,7 @@ description: „Poza zasięgiem” to geometryczna kompozycja zbudowana z
 year: 2026
 medium: Digital print on canvas
 dimensions: 50 x 70 cm
-edition: Limited Edition
+edition: Fine art digital print on canvas
 certificate: Certificate of Authenticity included
 price: 850 zł
 sold: false
