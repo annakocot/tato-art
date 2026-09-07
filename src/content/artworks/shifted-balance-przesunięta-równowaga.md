@@ -12,7 +12,7 @@ description: Duże pola żółci, zieleni i oliwkowej zieleni tworzą uporządko
   nie wynika z idealnej symetrii, lecz z napięcia pomiędzy różnymi siłami
   utrzymującymi całość w jednym układzie.
 year: 2026
-medium: Digital image print
+medium: " Fine art digital print on canvas"
 dimensions: 50 x 70 cm
 edition: Unikat
 certificate: Certyfikat autentyczności w zestawie
