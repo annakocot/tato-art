@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import { Image } from 'astro:assets';
 const artworks = (await getCollection('artworks')).sort((a, b) => a.data.order - b.data.order);
-const email = 'studio@example.com';
 ---
 <!doctype html>
 <html lang="en">
@@ -40,7 +39,7 @@ const email = 'studio@example.com';
           <div><dt>Certificate</dt><dd data-detail="certificate">{artworks[0].data.certificate}</dd></div>
         </dl>
         <p class="description" data-description>{artworks[0].data.description}</p>
-        <a class="enquire" data-enquire href={`mailto:${email}?subject=Enquiry about ${artworks[0].data.title}`}>Inquire / buy artwork</a>
+        <a class="enquire" data-enquire href="/contact/">Inquire / buy artwork</a>
       </article>
     </section>
     <nav class="pager" aria-label="Browse artworks">
@@ -65,7 +64,7 @@ const email = 'studio@example.com';
     <p data-lightbox-caption></p>
   </dialog>
   <footer><a class="wordmark" href="/">Art Factory Lines</a><p>All rights reserved</p></footer>
-  <script is:inline define:vars={{ artworks: artworks.map(({ data }) => ({ ...data, image: data.image.src })), email }}>
+  <script is:inline define:vars={{ artworks: artworks.map(({ data }) => ({ ...data, image: data.image.src })) }}>
     // @ts-nocheck
     let current = 0;
     const $ = (selector) => document.querySelector(selector);
@@ -85,7 +84,7 @@ const email = 'studio@example.com';
       ['year','dimensions','medium','edition','certificate'].forEach((key) => $(`[data-detail="${key}"]`).textContent = artwork[key] || '—');
       $('[data-detail="price"]').textContent = artwork.sold ? 'Sold' : (artwork.price || 'Price on request');
       const enquire = $('[data-enquire]'); enquire.textContent = artwork.sold ? 'Enquire about similar work' : 'Inquire / buy artwork';
-      enquire.href = `mailto:${email}?subject=${encodeURIComponent(`Enquiry about ${artwork.title}`)}`;
+      enquire.href = '/contact/';
       $('[data-position]').textContent = current + 1;
       document.querySelectorAll('.thumb').forEach((thumb, i) => { thumb.classList.toggle('active', i === current); thumb.setAttribute('aria-current', i === current ? 'true' : 'false'); });
     }
