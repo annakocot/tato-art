@@ -14,7 +14,7 @@ description: Kompozycja opiera się na wyraźnym zderzeniu dwóch pól koloru,
 year: 2026
 medium: Fine art digital print on canvas.
 dimensions: 50 x 70 cm
-edition: Unikat
+edition: Unique edition — 1/1
 certificate: Certyfikat autentyczności w zestawie
 price: 850 zł
 sold: false
