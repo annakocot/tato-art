@@ -12,7 +12,7 @@ description: „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście
   świecie pełnym informacji, w którym coraz więcej widzimy, ale niekoniecznie
   coraz więcej rozumiemy.
 year: 2026
-medium: Digital print
+medium: Fine art digital print on canvas
 dimensions: 50 × 70 cm
 edition: Limited edition
 certificate: Certificate of Authenticity included
