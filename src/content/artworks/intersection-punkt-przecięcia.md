@@ -12,7 +12,7 @@ description: Kompozycja opiera się na wyraźnym zderzeniu dwóch pól koloru,
   „Intersection” jest obrazem o miejscu styku — o momencie, w którym dwie różne
   struktury spotykają się, przecinają i zaczynają wpływać na siebie nawzajem.
 year: 2026
-medium: Digital print
+medium: Fine art digital print on canvas.
 dimensions: 50 x 70 cm
 edition: Unikat
 certificate: Certyfikat autentyczności w zestawie
