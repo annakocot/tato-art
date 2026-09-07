@@ -14,7 +14,7 @@ description: Monumentalne pole czerni zostaje przecięte przez pionowe pasy
   pełnej znaków — sytuacji, w której informacji jest coraz więcej, a pewność
   kierunku wcale nie staje się większa.
 year: 2026
-medium: Digital print
+medium: Fine art digital print on canvas.
 dimensions: 50 x 70 cm
 edition: Unikat
 certificate: Certyfikat autentyczności w zestawie
