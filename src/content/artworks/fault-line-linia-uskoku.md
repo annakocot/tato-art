@@ -13,7 +13,7 @@ description: Rozbita siatka, warstwy faktury i zdecydowane pola koloru tworzą
   momencie, w którym porządek jeszcze istnieje, ale jego granice zaczynają się
   przesuwać.
 year: 2026
-medium: Digital print
+medium: Fine art digital print on canvas
 dimensions: 50x70 cm
 edition: Fine art digital print on canvas
 certificate: Certyfikat autentyczności w zestawie
