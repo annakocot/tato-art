@@ -15,7 +15,7 @@ description: Rozbita siatka, warstwy faktury i zdecydowane pola koloru tworzą
 year: 2026
 medium: Digital print
 dimensions: 50x70 cm
-edition: Unikat
+edition: Fine art digital print on canvas
 certificate: Certyfikat autentyczności w zestawie
 price: 850 zł
 sold: false
