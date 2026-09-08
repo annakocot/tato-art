@@ -15,7 +15,7 @@ description: Kompozycja opiera się na rytmie pionowych pasów i dużych,
 year: 2026
 medium: Fine art digital print on canvas
 dimensions: 50 x 70 cm
-edition: Unikat
+edition: Fine art digital print on canvas
 certificate: Certyfikat autentyczności w zestawie
 price: 850 zł
 sold: false
