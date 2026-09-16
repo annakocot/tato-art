@@ -12,13 +12,9 @@ description: >-
   pomiędzy stabilnością a rozpadem — o momencie, w którym porządek jeszcze istnieje, ale jego
   granice zaczynają się przesuwać.
 year: 2026
-<<<<<<< Updated upstream
-medium: Fine art digital print on canvas
-=======
-medium: Druk cyfrowy
->>>>>>> Stashed changes
+medium: Artystyczny druk cyfrowy na płótnie
 dimensions: 50x70 cm
-edition: Fine art digital print on canvas
+edition: Artystyczny druk cyfrowy na płótnie
 certificate: Certyfikat autentyczności w zestawie
 price: 850 zł
 sold: false
@@ -37,7 +33,7 @@ en:
     rhythm. Geometric forms try to hold the construction together, but irregular traces and
     abrasions continually disrupt it. Fault Line explores the tension between stability and
     disintegration: the moment when order still exists but its boundaries begin to shift.
-  medium: Digital print
-  edition: Unique
+  medium: Fine art digital print on canvas
+  edition: Fine art digital print on canvas
   certificate: Certificate of Authenticity included
 ---

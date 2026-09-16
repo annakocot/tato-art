@@ -13,13 +13,8 @@ description: >-
 year: 2026
 medium: Druk cyfrowy na płótnie
 dimensions: 50 × 70 cm
-<<<<<<< Updated upstream
-edition: Fine art digital print on canvas
-certificate: Certificate of Authenticity included
-=======
-edition: Edycja limitowana
+edition: Artystyczny druk cyfrowy na płótnie
 certificate: Certyfikat autentyczności w zestawie
->>>>>>> Stashed changes
 price: 850 zł
 sold: false
 featured: true
@@ -38,6 +33,6 @@ en:
     sensory overload. It is a work about communication in a world full of information, where we see
     more and more but do not necessarily understand more.
   medium: Fine art digital print on canvas
-  edition: Limited edition
+  edition: Fine art digital print on canvas
   certificate: Certificate of Authenticity included
 ---

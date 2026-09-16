@@ -14,11 +14,7 @@ description: >-
 year: 2026
 medium: Druk cyfrowy na płótnie
 dimensions: 50 x 70 cm
-<<<<<<< Updated upstream
-edition: Unique edition — 1/5
-=======
-edition: Unikat — 1/1
->>>>>>> Stashed changes
+edition: Unikat — 1/5
 certificate: Certyfikat autentyczności w zestawie
 price: 850 zł
 sold: false
@@ -38,6 +34,6 @@ en:
     between energy and stability. Intersection concerns a point of contact: the moment when two
     different structures meet, cross and begin to influence each other.
   medium: Fine art digital print on canvas.
-  edition: Unique edition — 1/1
+  edition: Unique edition — 1/5
   certificate: Certificate of Authenticity included
 ---
