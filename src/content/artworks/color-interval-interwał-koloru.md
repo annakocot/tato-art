@@ -1,19 +1,18 @@
 ---
-title: COLOR INTERVAL / Interwał koloru
+title: Interwał koloru
 artworkId: DK-2026-0011
 image: ../../assets/uploads/23-07-2026-minimal-art-seria10-3.png
-alt: Abstrac inage collor qudes
-description: Kompozycja opiera się na rytmie pionowych pasów i dużych,
-  zdecydowanych pól koloru, które tworzą wyraźną strukturę całego obrazu.
-  Intensywne czerwienie, fiolety, zielenie, błękity i żółcie pozostają w
-  napięciu, ale jednocześnie budują zaskakująco uporządkowaną całość. W dolnej
-  części drobne prostokąty, punkty i pojedynczy biały okrąg rozbijają
-  monumentalność dużych form i wprowadzają bardziej subtelny, niemal muzyczny
-  rytm. „Color Interval” jest pracą o relacji pomiędzy kolorem, przestrzenią i
-  pauzą — o tym, że znaczenie pojawia się nie tylko w samych formach, ale
-  również w odległościach między nimi.
+alt: Interwał koloru — abstrakcyjna kompozycja Dariusza Kocota
+description: >-
+  Kompozycja opiera się na rytmie pionowych pasów i dużych, zdecydowanych pól koloru, które tworzą
+  wyraźną strukturę całego obrazu. Intensywne czerwienie, fiolety, zielenie, błękity i żółcie
+  pozostają w napięciu, ale jednocześnie budują zaskakująco uporządkowaną całość. W dolnej części
+  drobne prostokąty, punkty i pojedynczy biały okrąg rozbijają monumentalność dużych form i
+  wprowadzają bardziej subtelny, niemal muzyczny rytm. „Color Interval” jest pracą o relacji
+  pomiędzy kolorem, przestrzenią i pauzą — o tym, że znaczenie pojawia się nie tylko w samych
+  formach, ale również w odległościach między nimi.
 year: 2026
-medium: Fine art digital print on canvas
+medium: Druk cyfrowy na płótnie
 dimensions: 50 x 70 cm
 edition: Fine art digital print on canvas
 certificate: Certyfikat autentyczności w zestawie
@@ -21,4 +20,20 @@ price: 850 zł
 sold: false
 featured: true
 order: 11
+series: ''
+selected: false
+en:
+  title: COLOR INTERVAL
+  series: ''
+  alt: COLOR INTERVAL — abstract composition by Dariusz Kocot
+  description: >-
+    The composition is based on the rhythm of vertical bands and large, decisive fields of colour
+    that establish a clear structure. Intense reds, violets, greens, blues and yellows remain in
+    tension while building a surprisingly ordered whole. Below, small rectangles, dots and a single
+    white circle break up the monumental forms and introduce a subtler, almost musical rhythm. Color
+    Interval explores the relationship between colour, space and pause: meaning emerges not only
+    from the forms themselves but also from the distances between them.
+  medium: Fine art digital print on canvas
+  edition: Unique
+  certificate: Certificate of Authenticity included
 ---

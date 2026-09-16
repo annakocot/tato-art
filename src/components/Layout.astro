@@ -1,0 +1,38 @@
+---
+import { getEntry } from 'astro:content';
+import { labels, url, type Locale } from '../lib/site';
+interface Props { locale: Locale; path?: string; title: string; description: string; }
+const { locale, path = '', title, description } = Astro.props;
+const t = labels[locale];
+const contact = (await getEntry('contact', locale === 'pl' ? 'details' : 'en'))!.data;
+const nav = [['', t.home], ['artworks', t.artworks], ['about', t.about], ['buy', t.buy], ['contact', t.contact]];
+---
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} /><title>{title} — Art Factory Lines</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" hreflang="pl" href={new URL(url('pl', path), Astro.site)} />
+    <link rel="alternate" hreflang="en" href={new URL(url('en', path), Astro.site)} />
+    <link rel="alternate" hreflang="x-default" href={new URL(url('pl', path), Astro.site)} />
+    <link rel="canonical" href={new URL(url(locale, path), Astro.site)} />
+    <link rel="stylesheet" href="/styles/global.css" />
+    <script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+  <body class:list={[{ 'is-home': !path }]}>
+    <a class="skip-link" href="#main">{t.skip}</a>
+    <header class="site-header">
+      <a class="wordmark" href={url(locale)}>Art Factory Lines<span>{t.artist}</span></a>
+      <nav aria-label={t.navigation}>{nav.map(([route, text]) => <a href={url(locale, route)} aria-current={path === route || (route === 'artworks' && path.startsWith('artworks/')) ? 'page' : undefined}>{text}</a>)}</nav>
+      <div class="languages" aria-label={locale === 'pl' ? 'Język' : 'Language'}><a href={url('pl', path)} lang="pl" hreflang="pl" aria-current={locale === 'pl' ? 'true' : undefined}>PL</a><span aria-hidden="true">|</span><a href={url('en', path)} lang="en" hreflang="en" aria-current={locale === 'en' ? 'true' : undefined}>EN</a></div>
+    </header>
+    <main id="main"><slot /></main>
+    <footer><p>© {new Date().getFullYear()} Art Factory Lines<br />{t.rights}</p><nav aria-label={locale === 'pl' ? 'Stopka' : 'Footer'}><a href={contact.instagram} target="_blank" rel="noreferrer">Instagram ↗</a><a href={contact.facebook} target="_blank" rel="noreferrer">Facebook ↗</a><a href={url(locale, 'contact')}>{t.contact}</a></nav></footer>
+    <script is:inline>
+      if (window.netlifyIdentity) window.netlifyIdentity.on('init', user => {
+        if (!user) window.netlifyIdentity.on('login', () => { window.location.href = '/admin/'; });
+      });
+    </script>
+  </body>
+</html>

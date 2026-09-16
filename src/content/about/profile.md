@@ -1,9 +1,10 @@
 ---
 name: Art.
 photo: ../../assets/uploads/darek.png
-photoAlt: Portrait placeholder for the artist
-introduction: Art Factory Lines prezentuje oryginalne, unikatowe dzieła
-  fizyczne, powstające w niezależnym i autorskim procesie twórczym.
+photoAlt: Portret artysty
+introduction: >-
+  Art Factory Lines prezentuje oryginalne, unikatowe dzieła fizyczne, powstające w niezależnym i
+  autorskim procesie twórczym.
 ---
 **Art Factory Lines to niezależny projekt artystyczny skupiony na oryginalnych, fizycznych dziełach sztuki.**
 

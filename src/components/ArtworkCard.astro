@@ -1,0 +1,14 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import { labels, url, artworkPath, type Locale } from '../lib/site';
+interface Props { artwork: CollectionEntry<'artworks'>; locale: Locale; }
+const { artwork, locale } = Astro.props;
+const a = artwork.data;
+const text = locale === 'en' ? a.en : a;
+const t = labels[locale];
+---
+<a class="art-card" href={url(locale, artworkPath(a.artworkId))}>
+  <div class="card-image"><Image src={a.image} alt={text.alt} widths={[320, 560, 800]} sizes="(max-width: 560px) 90vw, (max-width: 900px) 44vw, 22vw" /></div>
+  <h3>{text.title}</h3><p>{text.series || a.artworkId}</p><p>{a.year}</p><p class="card-price">{a.sold ? t.sold : a.price || t.request}</p><span class="small-rule" aria-hidden="true"></span>
+</a>

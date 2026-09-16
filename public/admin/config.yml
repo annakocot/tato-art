@@ -1,41 +1,237 @@
 backend:
   name: git-gateway
   branch: main
-
 locale: pl
-
 local_backend: true
-
 media_folder: src/assets/uploads
 public_folder: ../../assets/uploads
-
 site_url: https://example.com
 display_url: https://example.com
 logo_url: /favicon.svg
-
 collections:
   - name: pages
     label: Strony
     files:
-      - name: about
-        label: Strona O mnie
+      - name: home_pl
+        label: Strona główna — Polski
+        file: src/content/home/pl.md
+        fields:
+          - name: title
+            label: Tytuł / Title
+            widget: text
+          - name: subtitle
+            label: Podtytuł / Subtitle
+            widget: text
+          - name: description
+            label: Opis / Description
+            widget: text
+          - name: button
+            label: Przycisk galerii / Gallery button
+            widget: string
+          - name: heroImage
+            label: Główna praca / Hero artwork
+            widget: image
+          - name: heroAlt
+            label: Opis obrazu / Image alternative text
+            widget: string
+          - name: heroTitle
+            label: Tytuł głównej pracy / Hero artwork title
+            widget: string
+          - name: heroSeries
+            label: Seria lub identyfikator / Series or ID
+            widget: string
+          - name: motto
+            label: Tekst boczny / Side text
+            widget: text
+          - name: selectedTitle
+            label: Nagłówek wybranych prac / Selected works heading
+            widget: string
+          - name: allButton
+            label: Przycisk wszystkich prac / All artworks button
+            widget: string
+          - name: aboutHeadline
+            label: Nagłówek o artyście / Artist headline
+            widget: text
+          - name: aboutDescription
+            label: Krótki opis artysty / Artist introduction
+            widget: text
+          - name: aboutButton
+            label: Przycisk o artyście / About button
+            widget: string
+          - name: aboutImage
+            label: Obraz w sekcji artysty / Artist section image
+            widget: image
+          - name: aboutAlt
+            label: Opis obrazu / Image alternative text
+            widget: string
+          - name: aboutCaption
+            label: Podpis boczny / Side caption
+            widget: text
+      - name: buy_pl
+        label: Jak kupić — Polski
+        file: src/content/buy/pl.md
+        fields:
+          - name: title
+            label: Tytuł / Title
+            widget: string
+          - name: introduction
+            label: Wprowadzenie / Introduction
+            widget: text
+          - name: steps
+            label: Kroki / Steps
+            widget: list
+            min: 1
+            summary: '{{fields.title}}'
+            fields:
+              - name: title
+                label: Tytuł kroku / Step title
+                widget: string
+              - name: description
+                label: Opis / Description
+                widget: text
+          - name: closing
+            label: Tekst końcowy / Closing text
+            widget: text
+          - name: button
+            label: Przycisk kontaktu / Contact button
+            widget: string
+      - name: about_pl
+        label: O artyście — Polski
         file: src/content/about/profile.md
-        fields:
-          - { label: Imię i nazwisko artysty, name: name, widget: string }
-          - { label: Zdjęcie, name: photo, widget: image }
-          - { label: Opis zdjęcia, name: photoAlt, widget: string, hint: "Krótko opisz zdjęcie dla osób korzystających z czytników ekranu." }
-          - { label: Wprowadzenie, name: introduction, widget: text, hint: "Krótki akapit otwierający, wyświetlany większym tekstem." }
-          - { label: Historia, name: body, widget: markdown }
-      - name: contact
-        label: Strona Kontakt
+        fields: &ref_0
+          - label: Imię i nazwisko artysty
+            name: name
+            widget: string
+          - label: Zdjęcie
+            name: photo
+            widget: image
+          - label: Opis zdjęcia
+            name: photoAlt
+            widget: string
+            hint: Krótko opisz zdjęcie dla osób korzystających z czytników ekranu.
+          - label: Wprowadzenie
+            name: introduction
+            widget: text
+            hint: Krótki akapit otwierający, wyświetlany większym tekstem.
+          - label: Historia
+            name: body
+            widget: markdown
+      - name: contact_pl
+        label: Kontakt — Polski
         file: src/content/contact/details.md
+        fields: &ref_1
+          - label: Nagłówek
+            name: heading
+            widget: string
+          - label: Wprowadzenie
+            name: introduction
+            widget: text
+          - label: Numer telefonu
+            name: phone
+            widget: string
+          - label: Adres e-mail
+            name: email
+            widget: string
+          - label: Adres profilu Instagram
+            name: instagram
+            widget: string
+          - label: Adres profilu Facebook
+            name: facebook
+            widget: string
+      - name: home_en
+        label: Strona główna — English
+        file: src/content/home/en.md
         fields:
-          - { label: Nagłówek, name: heading, widget: string }
-          - { label: Wprowadzenie, name: introduction, widget: text }
-          - { label: Numer telefonu, name: phone, widget: string }
-          - { label: Adres e-mail, name: email, widget: string }
-          - { label: Adres profilu Instagram, name: instagram, widget: string }
-          - { label: Adres profilu Facebook, name: facebook, widget: string }
+          - name: title
+            label: Tytuł / Title
+            widget: text
+          - name: subtitle
+            label: Podtytuł / Subtitle
+            widget: text
+          - name: description
+            label: Opis / Description
+            widget: text
+          - name: button
+            label: Przycisk galerii / Gallery button
+            widget: string
+          - name: heroImage
+            label: Główna praca / Hero artwork
+            widget: image
+          - name: heroAlt
+            label: Opis obrazu / Image alternative text
+            widget: string
+          - name: heroTitle
+            label: Tytuł głównej pracy / Hero artwork title
+            widget: string
+          - name: heroSeries
+            label: Seria lub identyfikator / Series or ID
+            widget: string
+          - name: motto
+            label: Tekst boczny / Side text
+            widget: text
+          - name: selectedTitle
+            label: Nagłówek wybranych prac / Selected works heading
+            widget: string
+          - name: allButton
+            label: Przycisk wszystkich prac / All artworks button
+            widget: string
+          - name: aboutHeadline
+            label: Nagłówek o artyście / Artist headline
+            widget: text
+          - name: aboutDescription
+            label: Krótki opis artysty / Artist introduction
+            widget: text
+          - name: aboutButton
+            label: Przycisk o artyście / About button
+            widget: string
+          - name: aboutImage
+            label: Obraz w sekcji artysty / Artist section image
+            widget: image
+          - name: aboutAlt
+            label: Opis obrazu / Image alternative text
+            widget: string
+          - name: aboutCaption
+            label: Podpis boczny / Side caption
+            widget: text
+      - name: buy_en
+        label: Jak kupić — English
+        file: src/content/buy/en.md
+        fields:
+          - name: title
+            label: Tytuł / Title
+            widget: string
+          - name: introduction
+            label: Wprowadzenie / Introduction
+            widget: text
+          - name: steps
+            label: Kroki / Steps
+            widget: list
+            min: 1
+            summary: '{{fields.title}}'
+            fields:
+              - name: title
+                label: Tytuł kroku / Step title
+                widget: string
+              - name: description
+                label: Opis / Description
+                widget: text
+          - name: closing
+            label: Tekst końcowy / Closing text
+            widget: text
+          - name: button
+            label: Przycisk kontaktu / Contact button
+            widget: string
+      - name: about_en
+        label: O artyście — English
+        file: src/content/about/en.md
+        fields: *ref_0
+      - name: contact_en
+        label: Kontakt — English
+        file: src/content/contact/en.md
+        fields: *ref_1
+    description: >-
+      Edytuj osobno polską i angielską wersję każdej strony. Przyciski prowadzą automatycznie do strony w
+      wybranym języku.
   - name: artworks
     label: Dzieła
     label_singular: Dzieło
@@ -44,21 +240,106 @@ collections:
     delete: true
     extension: md
     format: frontmatter
-    slug: "{{slug}}"
-    summary: "{{title}} — {{price}}"
-    sortable_fields: [order, title, year]
+    slug: '{{slug}}'
+    summary: '{{title}} — {{price}}'
+    sortable_fields:
+      - order
+      - title
+      - year
     fields:
-      - { label: Tytuł, name: title, widget: string }
-      - { label: Identyfikator dzieła, name: artworkId, widget: string, hint: "Na przykład: AW-2026-001" }
-      - { label: Zdjęcie dzieła, name: image, widget: image }
-      - { label: Opis zdjęcia, name: alt, widget: string, hint: "Opisz dzieło dla osób korzystających z czytników ekranu." }
-      - { label: Opis dzieła, name: description, widget: text }
-      - { label: Rok, name: year, widget: number, value_type: int, required: false }
-      - { label: Technika, name: medium, widget: string, required: false, hint: "Na przykład: Olej na płótnie" }
-      - { label: Wymiary, name: dimensions, widget: string, required: false, hint: "Na przykład: 60 × 80 cm" }
-      - { label: Rodzaj edycji, name: edition, widget: string, default: "Unikat" }
-      - { label: Certyfikat, name: certificate, widget: string, default: "Certyfikat autentyczności w zestawie" }
-      - { label: Cena, name: price, widget: string, required: false, hint: "Podaj walutę, na przykład: 650 €" }
-      - { label: Sprzedane, name: sold, widget: boolean, default: false }
-      - { label: Wyróżnione duże zdjęcie, name: featured, widget: boolean, default: false }
-      - { label: Kolejność wyświetlania, name: order, widget: number, value_type: int, default: 100 }
+      - label: Tytuł
+        name: title
+        widget: string
+      - name: series
+        label: Seria (PL)
+        widget: string
+        required: false
+        hint: Pozostaw puste, jeśli praca nie należy do nazwanej serii.
+      - label: Identyfikator dzieła
+        name: artworkId
+        widget: string
+        hint: >-
+          Unikalny i stały identyfikator, np. DK-2026-001. Używany w adresie strony — zmiana identyfikatora
+          zmienia URL.
+        pattern:
+          - ^[A-Za-z0-9_-]+$
+          - Użyj liter bez polskich znaków, cyfr, łączników lub podkreśleń.
+      - label: Zdjęcie dzieła
+        name: image
+        widget: image
+      - label: Opis zdjęcia
+        name: alt
+        widget: string
+        hint: Opisz dzieło dla osób korzystających z czytników ekranu.
+      - label: Opis dzieła
+        name: description
+        widget: text
+      - label: Rok
+        name: year
+        widget: number
+        value_type: int
+        required: false
+      - label: Technika
+        name: medium
+        widget: string
+        required: false
+        hint: 'Na przykład: Olej na płótnie'
+      - label: Wymiary
+        name: dimensions
+        widget: string
+        required: false
+        hint: 'Na przykład: 60 × 80 cm'
+      - label: Rodzaj edycji
+        name: edition
+        widget: string
+        default: Unikat
+      - label: Certyfikat
+        name: certificate
+        widget: string
+        default: Certyfikat autentyczności w zestawie
+      - label: Cena
+        name: price
+        widget: string
+        required: false
+        hint: 'Podaj walutę, na przykład: 650 €'
+      - label: Sprzedane
+        name: sold
+        widget: boolean
+        default: false
+      - label: Kolejność wyświetlania
+        name: order
+        widget: number
+        value_type: int
+        default: 100
+      - name: selected
+        label: Pokaż na stronie głównej / Selected work
+        widget: boolean
+        default: false
+        hint: Strona główna pokazuje pierwsze cztery wybrane prace według kolejności wyświetlania.
+      - name: en
+        label: English translation
+        widget: object
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: series
+            label: Series
+            widget: string
+            required: false
+          - name: alt
+            label: Image alternative text
+            widget: string
+          - name: description
+            label: Description
+            widget: text
+          - name: medium
+            label: Technique
+            widget: string
+            required: false
+          - name: edition
+            label: Edition type
+            widget: string
+          - name: certificate
+            label: Certificate
+            widget: string
