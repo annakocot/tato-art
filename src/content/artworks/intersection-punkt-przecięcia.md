@@ -13,7 +13,7 @@ description: Kompozycja opiera się na wyraźnym zderzeniu dwóch pól koloru,
   „Intersection” jest obrazem o miejscu styku — o momencie, w którym dwie różne
   struktury spotykają się, przecinają i zaczynają wpływać na siebie nawzajem.
 year: 2026
-medium: Druk cyfrowy na płótnie
+medium: Artystyczny druk cyfrowy na płótnie
 dimensions: 50 x 70 cm
 certificate: Certyfikat autentyczności w zestawie
 price: 1250 zł
