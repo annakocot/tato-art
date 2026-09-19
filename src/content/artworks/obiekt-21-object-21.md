@@ -13,7 +13,7 @@ description: „Obiekt 21” to geometryczna kompozycja oparta na mocnych
   pozostawia widzowi swobodę interpretacji — może być odczytywana zarówno jako
   abstrakcyjna struktura, jak i fragment nieznanego systemu wizualnego.
 year: 2026
-medium: Druk cyfrowy
+medium: Artystyczny druk cyfrowy na płótnie
 dimensions: 50 x 70 cm
 certificate: Certyfikat autentyczności w zestawie
 price: 1250 zł
