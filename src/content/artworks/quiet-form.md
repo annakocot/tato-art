@@ -27,7 +27,7 @@ en:
     not always mean reaching an understanding. Strong contrast and a restrained
     form give the work a distinctive contemporary character, while leaving room
     for the viewer’s own interpretation.
-  medium: Digital print on canvas
+  medium: Artistic digital print on canvas
   edition: Limited edition
   certificate: Certificate of Authenticity included
 featured: true
