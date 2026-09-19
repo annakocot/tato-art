@@ -30,10 +30,11 @@ en:
     original context. The work leaves open the question of the boundary between
     what we can see and record and what remains beyond our reach.
   medium: Digital print on canvas
-  edition: Fine art digital print on canvas
+  edition: Computer-created digital artwork. Pigment print on Imprime 390 g/m² canvas.
   certificate: Certificate of Authenticity included
 featured: true
-edition: Artystyczny druk cyfrowy na płótnie
+edition: Grafika cyfrowa wykonana komputerowo. Wydruk pigmentowy na płótnie
+  Imprime 390 g/m².
 sold: false
 order: 2
 selected: true
