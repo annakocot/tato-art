@@ -12,7 +12,7 @@ description: „Błąd transmisji” to kompozycja zbudowana na napięciu pomię
   kontrast i oszczędna forma nadają pracy wyrazisty, współczesny charakter,
   pozostawiając jednocześnie widzowi przestrzeń do własnej interpretacji.
 year: 2026
-medium: Druk cyfrowy na płótnie
+medium: Artystyczny druk cyfrowy na płótnie
 dimensions: 50 x 70 cm
 certificate: Certyfikat autentyczności w zestawie
 price: 1250 zł
