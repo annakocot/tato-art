@@ -15,7 +15,6 @@ description: >-
   utrzymującymi całość w jednym układzie.
 
 
-
   Jedyny fizyczny egzemplarz tej pracy. Po sprzedaży edycja zostaje zamknięta i nie będzie ponownie drukowana.
 year: 2026
 medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny na płótnie Imprime
@@ -35,7 +34,6 @@ en:
     and intuition, order and a deliberate shifting of its rules. Shifted Balance
     speaks of an equilibrium that comes from the tension between different
     forces holding a whole together, rather than perfect symmetry.
-
 
 
     The only physical copy of this artwork. Once sold, the edition is permanently closed and will not be reprinted.
