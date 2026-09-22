@@ -4,16 +4,20 @@ series: ""
 artworkId: DK-2026-009
 image: ../../assets/uploads/6-08-2026-miniml-collage-art_rust-06.png
 alt: Fałszywy kierunek — abstrakcyjna kompozycja Dariusza Kocota
-description: Monumentalne pole czerni zostaje przecięte przez pionowe pasy
-  koloru, strzałki, litery i fragmenty znaków przypominających elementy
-  nieczytelnego systemu informacji. Graficzny porządek celowo zderza się z
-  surowymi strukturami rdzy, niedoskonałością druku i fragmentaryczną
-  typografią, przez co obraz balansuje pomiędzy modernistyczną dyscypliną a
-  wizualnym chaosem. Kierunki, symbole i urwane komunikaty sugerują możliwość
-  wyboru, ale jednocześnie nie prowadzą do żadnego oczywistego celu. „False
-  Direction” można odczytać jako obraz o orientowaniu się w rzeczywistości
-  pełnej znaków — sytuacji, w której informacji jest coraz więcej, a pewność
-  kierunku wcale nie staje się większa.
+description: >-
+  Monumentalne pole czerni zostaje przecięte przez pionowe pasy koloru,
+  strzałki, litery i fragmenty znaków przypominających elementy nieczytelnego
+  systemu informacji. Graficzny porządek celowo zderza się z surowymi
+  strukturami rdzy, niedoskonałością druku i fragmentaryczną typografią, przez
+  co obraz balansuje pomiędzy modernistyczną dyscypliną a wizualnym chaosem.
+  Kierunki, symbole i urwane komunikaty sugerują możliwość wyboru, ale
+  jednocześnie nie prowadzą do żadnego oczywistego celu. „False Direction” można
+  odczytać jako obraz o orientowaniu się w rzeczywistości pełnej znaków —
+  sytuacji, w której informacji jest coraz więcej, a pewność kierunku wcale nie
+  staje się większa.
+
+
+  Jedyny fizyczny egzemplarz tej pracy. Po sprzedaży edycja zostaje zamknięta i nie będzie ponownie drukowana.
 year: 2026
 medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny na płótnie Imprime
   390 g/m²
@@ -33,6 +37,9 @@ en:
     without leading to any obvious destination. False Direction can be read as
     an image of finding one’s way through a reality full of signs, where more
     information does not necessarily bring greater certainty.
+
+
+    The only physical copy of this artwork. Once sold, the edition is permanently closed and will not be reprinted.
 
   medium: Original digital artwork, fine art pigment print on Imprime 390 g/m² canvas
   edition: Unique edition 1/1 — no reprints
