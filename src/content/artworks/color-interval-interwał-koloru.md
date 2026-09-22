@@ -45,6 +45,6 @@ en:
 featured: true
 edition: Unikatowa edycja 1/1 — bez dodruków
 sold: false
-order: 11
+order: 2
 selected: false
 ---
