@@ -13,10 +13,11 @@ description: „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście
   świecie pełnym informacji, w którym coraz więcej widzimy, ale niekoniecznie
   coraz więcej rozumiemy.
 year: 2026
-medium: Druk cyfrowy na płótnie
+medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny na płótnie Imprime
+  390 g/m²
 dimensions: 50 × 70 cm
-certificate: Certyfikat autentyczności w zestawie
-price: 1250 zł
+certificate: Sygnowana praca z Certyfikatem Autentyczności
+price: 2 500 zł
 en:
   title: Disruption
   series: ""
@@ -29,12 +30,12 @@ en:
     between order and chance, silence and sensory overload. It is a work about
     communication in a world full of information, where we see more and more but
     do not necessarily understand more."
-  medium: Fine art digital print on canvas
-  edition: Fine art digital print on canvas
+  medium: Original digital artwork, fine art pigment print on Imprime 390 g/m² canvas
+  edition: Unique edition 1/1 — no reprints
   certificate: Certificate of Authenticity included
 featured: true
-edition: Artystyczny druk cyfrowy na płótnie
+edition: Unikatowa edycja 1/1 — bez dodruków
 sold: false
-order: 4
+order: 1
 selected: true
 ---
