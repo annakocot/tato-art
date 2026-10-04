@@ -21,7 +21,7 @@ medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny na płótnie Impri
   390 g/m²
 dimensions: 50x70 cm
 certificate: Certyfikat autentyczności w zestawie
-price: 2500 zł
+price: 550 zł
 en:
   title: FAULT LINE
   series: ""
