@@ -21,7 +21,7 @@ medium: Jedyny fizyczny egzemplarz tej pracy. Po sprzedaży edycja zostaje
   zamknięta i nie będzie ponownie drukowana.
 dimensions: 50 x 70 cm
 certificate: Sygnowana praca z Certyfikatem Autentyczności
-price: 2500 zł
+price: 550 zł
 en:
   title: RESIDUAL STRUCTURE
   series: ""
