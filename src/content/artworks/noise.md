@@ -19,7 +19,7 @@ medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny na płótnie Impri
 dimensions: 50 x 70 cm
 edition: Unikatowa edycja 1/1 — bez dodruków
 certificate: Sygnowana praca z Certyfikatem Autentyczności
-price: 2500 zł
+price: 550 zł
 sold: false
 order: 23
 selected: true
