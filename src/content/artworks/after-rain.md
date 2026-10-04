@@ -21,7 +21,7 @@ medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny na płótnie Impri
   390 g/m²
 dimensions: 50 × 70 cm
 certificate: Sygnowana praca z Certyfikatem Autentyczności
-price: 2 500 zł
+price: 720 zł
 en:
   title: Disruption
   series: ""
