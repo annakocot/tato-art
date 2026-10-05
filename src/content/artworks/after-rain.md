@@ -17,7 +17,10 @@ medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny na płótnie Impri
   390 g/m²
 dimensions: 50 × 70 cm
 certificate: Sygnowana praca z Certyfikatem Autentyczności
-price: 550 zł
+price: "50 × 70 cm — płótno Pigmentowy druk artystyczny na płótnie Imprime 390
+  g/m² Edycja limitowana: 3 egzemplarze Cena: 1200 zł 30 × 42 cm — papier Fine
+  Art Pigmentowy druk artystyczny na papierze SOLUTION White Velvet 270
+  g/m²  Edycja limitowana: 5 egzemplarzy Cena: 300 zł"
 en:
   title: Disruption
   series: ""
