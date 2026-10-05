@@ -35,8 +35,10 @@ en:
     in 50 x 70 cm.
   certificate: Certificate of Authenticity included
 featured: true
-edition: Edycja 1/1 — unikat w tym formacie. Bez kolejnych egzemplarzy w
-  rozmiarze 50 x 70 cm
+edition: "50 × 70 cm — płótno Pigmentowy druk artystyczny na płótnie Imprime 390
+  g/m² Edycja limitowana: 3 egzemplarze Cena: 1200 zł 30 × 42 cm — papier Fine
+  Art Pigmentowy druk artystyczny na papierze SOLUTION White Velvet 270 g/m²
+  Edycja limitowana: 5 egzemplarzy Cena: 300 zł"
 sold: false
 order: 1
 selected: true
