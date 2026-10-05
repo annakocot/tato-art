@@ -23,6 +23,7 @@ description: >-
 
   Cena: 1200 zł
 
+
   30 × 42 cm — papier Fine Art
 
   Pigmentowy druk artystyczny na papierze SOLUTION White Velvet 270 g/m²
@@ -33,8 +34,7 @@ description: >-
 
   Każdy egzemplarz jest numerowany, sygnowany i posiada Certyfikat Autentyczności.
 year: 2026
-medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny na płótnie Imprime
-  390 g/m²
+medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny.
 dimensions: 50 × 70 cm — płótno |  30 × 42 cm — papier Fine Art
 certificate: Sygnowana praca z Certyfikatem Autentyczności
 price: "50 × 70 cm — płótno cena: 1200 zł |  30 × 42 cm — papier Fine Art cena:
@@ -56,9 +56,8 @@ en:
     in 50 x 70 cm.
   certificate: Certificate of Authenticity included
 featured: true
-edition: "Pigmentowy druk artystyczny na płótnie Imprime 390 g/m²  - Edycja
-  limitowana: 3 egzemplarze / Pigmentowy druk artystyczny na papierze SOLUTION
-  White Velvet 270 g/m² Edycja limitowana: 5 egzemplarzy"
+edition: "Płótno Imprime 390 g/m²  - Edycja limitowana: 3 egzemplarze
+  /  Papier  Fine Art - Edycja limitowana: 5 egzemplarze"
 sold: false
 order: 1
 selected: true
