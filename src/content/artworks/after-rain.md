@@ -4,8 +4,7 @@ series: ""
 artworkId: DK-2026-001
 image: ../../assets/uploads/zaklucenie.png
 alt: Zakłócenie — abstrakcyjna kompozycja Dariusza Kocota
-description: >
-  „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście pustej
+description: „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście pustej
   przestrzeni z niewielkim, intensywnym skupiskiem koloru, znaków i fragmentów
   informacji. Centralna forma przypomina uszkodzony cyfrowy komunikat — coś, co
   miało być czytelne, lecz w trakcie przekazu zostało zniekształcone.
@@ -13,9 +12,6 @@ description: >
   porządkiem a przypadkiem, ciszą a nadmiarem bodźców. To praca o komunikacji w
   świecie pełnym informacji, w którym coraz więcej widzimy, ale niekoniecznie
   coraz więcej rozumiemy.
-
-
-  Jedyny fizyczny egzemplarz tej pracy. Po sprzedaży edycja zostaje zamknięta i nie będzie ponownie drukowana.
 year: 2026
 medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny na płótnie Imprime
   390 g/m²
@@ -26,23 +22,21 @@ en:
   title: Disruption
   series: ""
   alt: Disruption — abstract composition by Dariusz Kocot
-  description: >-
-    Disruption is an abstract composition built on the contrast between empty
-    space and a small, intense cluster of colour, signs and fragments of
-    information. The central form resembles a damaged digital message: something
-    intended to be legible that became distorted in transmission. Scattered
-    numbers, symbols and omissions create tension between order and chance,
-    silence and sensory overload. It is a work about communication in a world
-    full of information, where we see more and more but do not necessarily
-    understand more.
-
-
-    The only physical copy of this artwork. Once sold, the edition is permanently closed and will not be reprinted.
+  description: "Disruption is an abstract composition built on the contrast
+    between empty space and a small, intense cluster of colour, signs and
+    fragments of information. The central form resembles a damaged digital
+    message: something intended to be legible that became distorted in
+    transmission. Scattered numbers, symbols and omissions create tension
+    between order and chance, silence and sensory overload. It is a work about
+    communication in a world full of information, where we see more and more but
+    do not necessarily understand more."
   medium: Original digital artwork, fine art pigment print on Imprime 390 g/m² canvas
-  edition: Unique edition 1/1 — no reprints
+  edition: Edition 1/1 — unique in this format. No further prints will be produced
+    in 50 x 70 cm.
   certificate: Certificate of Authenticity included
 featured: true
-edition: Unikatowa edycja 1/1 — bez dodruków
+edition: Edycja 1/1 — unikat w tym formacie. Bez kolejnych egzemplarzy w
+  rozmiarze 50 x 70 cm
 sold: false
 order: 1
 selected: true
