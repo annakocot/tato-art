@@ -4,8 +4,7 @@ series: ""
 artworkId: DK-2026-001
 image: ../../assets/uploads/zaklucenie.png
 alt: Zakłócenie — abstrakcyjna kompozycja Dariusza Kocota
-description: >-
-  „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście pustej
+description: „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście pustej
   przestrzeni z niewielkim, intensywnym skupiskiem koloru, znaków i fragmentów
   informacji. Centralna forma przypomina uszkodzony cyfrowy komunikat — coś, co
   miało być czytelne, lecz w trakcie przekazu zostało zniekształcone.
@@ -13,26 +12,6 @@ description: >-
   porządkiem a przypadkiem, ciszą a nadmiarem bodźców. To praca o komunikacji w
   świecie pełnym informacji, w którym coraz więcej widzimy, ale niekoniecznie
   coraz więcej rozumiemy.
-
-
-  50 × 70 cm — płótno
-
-  Pigmentowy druk artystyczny na płótnie Imprime 390 g/m²
-
-  Edycja limitowana: 3 egzemplarze
-
-  Cena: 1200 zł
-
-
-  30 × 42 cm — papier Fine Art
-
-  Pigmentowy druk artystyczny na papierze SOLUTION White Velvet 270 g/m²
-
-  Edycja limitowana: 5 egzemplarzy
-
-  Cena: 300 zł
-
-  Każdy egzemplarz jest numerowany, sygnowany i posiada Certyfikat Autentyczności.
 year: 2026
 medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny.
 dimensions: 50 × 70 cm — płótno |  30 × 42 cm — papier Fine Art
@@ -51,9 +30,8 @@ en:
     between order and chance, silence and sensory overload. It is a work about
     communication in a world full of information, where we see more and more but
     do not necessarily understand more."
-  medium: Original digital artwork, fine art pigment print on Imprime 390 g/m² canvas
-  edition: Edition 1/1 — unique in this format. No further prints will be produced
-    in 50 x 70 cm.
+  medium: Original digital artwork, pigment-based fine art print
+  edition: 50 × 70 cm — canvas | 30 × 42 cm — Fine Art paper
   certificate: Certificate of Authenticity included
 featured: true
 edition: "Płótno Imprime 390 g/m²  - Edycja limitowana: 3 egzemplarze
