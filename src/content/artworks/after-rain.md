@@ -4,7 +4,8 @@ series: ""
 artworkId: DK-2026-001
 image: ../../assets/uploads/zaklucenie.png
 alt: Zakłócenie — abstrakcyjna kompozycja Dariusza Kocota
-description: „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście pustej
+description: >-
+  „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście pustej
   przestrzeni z niewielkim, intensywnym skupiskiem koloru, znaków i fragmentów
   informacji. Centralna forma przypomina uszkodzony cyfrowy komunikat — coś, co
   miało być czytelne, lecz w trakcie przekazu zostało zniekształcone.
@@ -12,15 +13,32 @@ description: „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście
   porządkiem a przypadkiem, ciszą a nadmiarem bodźców. To praca o komunikacji w
   świecie pełnym informacji, w którym coraz więcej widzimy, ale niekoniecznie
   coraz więcej rozumiemy.
+
+
+  50 × 70 cm — płótno
+
+  Pigmentowy druk artystyczny na płótnie Imprime 390 g/m²
+
+  Edycja limitowana: 3 egzemplarze
+
+  Cena: 1200 zł
+
+  30 × 42 cm — papier Fine Art
+
+  Pigmentowy druk artystyczny na papierze SOLUTION White Velvet 270 g/m²
+
+  Edycja limitowana: 5 egzemplarzy
+
+  Cena: 300 zł
+
+  Każdy egzemplarz jest numerowany, sygnowany i posiada Certyfikat Autentyczności.
 year: 2026
 medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny na płótnie Imprime
   390 g/m²
-dimensions: 50 × 70 cm
+dimensions: 50 × 70 cm — płótno |  30 × 42 cm — papier Fine Art
 certificate: Sygnowana praca z Certyfikatem Autentyczności
-price: "50 × 70 cm — płótno Pigmentowy druk artystyczny na płótnie Imprime 390
-  g/m² Edycja limitowana: 3 egzemplarze Cena: 1200 zł 30 × 42 cm — papier Fine
-  Art Pigmentowy druk artystyczny na papierze SOLUTION White Velvet 270
-  g/m²  Edycja limitowana: 5 egzemplarzy Cena: 300 zł"
+price: "50 × 70 cm — płótno cena: 1200 zł |  30 × 42 cm — papier Fine Art cena:
+  300 zł"
 en:
   title: Disruption
   series: ""
@@ -38,10 +56,9 @@ en:
     in 50 x 70 cm.
   certificate: Certificate of Authenticity included
 featured: true
-edition: "50 × 70 cm — płótno Pigmentowy druk artystyczny na płótnie Imprime 390
-  g/m² Edycja limitowana: 3 egzemplarze Cena: 1200 zł 30 × 42 cm — papier Fine
-  Art Pigmentowy druk artystyczny na papierze SOLUTION White Velvet 270 g/m²
-  Edycja limitowana: 5 egzemplarzy Cena: 300 zł"
+edition: "Pigmentowy druk artystyczny na płótnie Imprime 390 g/m²  - Edycja
+  limitowana: 3 egzemplarze / Pigmentowy druk artystyczny na papierze SOLUTION
+  White Velvet 270 g/m² Edycja limitowana: 5 egzemplarzy"
 sold: false
 order: 1
 selected: true
