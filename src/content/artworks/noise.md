@@ -26,7 +26,7 @@ en:
   description: Order tries to take control of chance, yet something keeps escaping
     the rules. Repetition creates a sense of control only until a disruption
     appears. Perhaps that is exactly where something truly interesting begins.
-  medium: Original digital artwork, fine art pigment print on Imprime 390 g/m² canvas
+  medium: Original digital artwork, pigment-based fine art print
   edition: "Imprime 390 g/m² canvas — Limited Edition: 3 copies | Fine Art paper —
     Limited Edition: 5 copies"
   certificate: Signed artwork with Certificate of Authenticity
