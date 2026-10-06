@@ -18,7 +18,7 @@ description: >-
 
   Jedyny fizyczny egzemplarz tej pracy. Po sprzedaży edycja zostaje zamknięta i nie będzie ponownie drukowana.
 year: 2026
-medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny
+medium: Grafika autorska - Pigmentowy druk artystyczny
 dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
 certificate: Certyfikat autentyczności w zestawie
 price: "50 × 70 cm — płótno cena: 1200 zł | 30 × 42 cm — papier Fine Art cena: 300 zł"
