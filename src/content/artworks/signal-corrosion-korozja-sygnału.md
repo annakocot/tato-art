@@ -4,7 +4,7 @@ series: ""
 artworkId: DK-2026-005
 image: ../../assets/uploads/05-08-2026-minimal-art-seria-open-2.png
 alt: Korozja sygnału — abstrakcyjna kompozycja Dariusza Kocota
-description: >-
+description: >+
   Warstwy zdeformowanego tekstu, surowej faktury i geometrycznych znaków tworzą
   obraz przypominający komunikat, którego nie da się już w pełni odczytać.
   Rdzawe, niemal organiczne tło ściera się z czernią oraz intensywnymi plamami
@@ -14,8 +14,6 @@ description: >-
   o świecie przepełnionym informacją, w którym znaczenie nie znika nagle —
   raczej powoli rozpada się pod naporem kolejnych komunikatów.
 
-
-  Jedyny fizyczny egzemplarz tej pracy. Po sprzedaży edycja zostaje zamknięta i nie będzie ponownie drukowana.
 year: 2025
 medium: " Grafika autorska - Pigmentowy druk artystyczny"
 dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
