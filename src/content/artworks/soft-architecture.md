@@ -14,7 +14,7 @@ description: „Poza zasięgiem” to geometryczna kompozycja zbudowana z
   pomiędzy tym, co możemy zobaczyć i zarejestrować, a tym, co pozostaje poza
   naszym zasięgiem.
 year: 2025
-medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny
+medium: " Grafika autorska - Pigmentowy druk artystyczny"
 dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
 certificate: Sygnowana praca z Certyfikatem Autentyczności
 price: "50 × 70 cm — płótno cena: 1200 zł | 30 × 42 cm — papier Fine Art cena: 300 zł"
@@ -29,7 +29,7 @@ en:
     landscape. Individual dots and signs look like information detached from its
     original context. The work leaves open the question of the boundary between
     what we can see and record and what remains beyond our reach.
-  medium: Original digital artwork, pigment-based fine art print
+  medium: Original artwork, pigment-based fine art print
   edition: "Imprime 390 g/m² canvas — Limited Edition: 3 copies | Fine Art paper —
     Limited Edition: 5 copies"
   certificate: Certificate of Authenticity included
