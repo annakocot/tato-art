@@ -14,7 +14,7 @@ description: Powtarzające się punkty, rastry i zdeformowane struktury budują
   którym rytm, informacja i bodźce stają się tak intensywne, że same zaczynają
   tworzyć nowy porządek.
 year: 2025
-medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny
+medium: " Grafika autorska - Pigmentowy druk artystyczny"
 dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
 certificate: Sygnowana praca z Certyfikatem Autentyczności
 price: "50 × 70 cm — płótno cena: 1200 zł | 30 × 42 cm — papier Fine Art cena: 300 zł"
