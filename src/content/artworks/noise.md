@@ -11,7 +11,7 @@ description: Porządek próbuje zapanować nad przypadkiem, ale coś ciągle wym
   pojawia się zakłócenie. Być może właśnie tam zaczyna się coś naprawdę
   interesującego.
 year: 2025
-medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny
+medium: " Grafika autorska - Pigmentowy druk artystyczny"
 dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
 edition: "Płótno Imprime 390 g/m² - Edycja limitowana: 3 egzemplarze / Papier
   Fine Art - Edycja limitowana: 5 egzemplarze"
@@ -26,7 +26,7 @@ en:
   description: Order tries to take control of chance, yet something keeps escaping
     the rules. Repetition creates a sense of control only until a disruption
     appears. Perhaps that is exactly where something truly interesting begins.
-  medium: Original digital artwork, pigment-based fine art print
+  medium: Original artwork, pigment-based fine art print
   edition: "Imprime 390 g/m² canvas — Limited Edition: 3 copies | Fine Art paper —
     Limited Edition: 5 copies"
   certificate: Signed artwork with Certificate of Authenticity
