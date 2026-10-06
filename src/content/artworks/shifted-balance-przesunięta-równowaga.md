@@ -4,24 +4,19 @@ series: ""
 artworkId: DK-2026_0015
 image: ../../assets/uploads/28-07-2026-minimal-art-seria10-5.png
 alt: Przesunięta równowaga — abstrakcyjna kompozycja Dariusza Kocota
-description: >-
-  Duże pola żółci, zieleni i oliwkowej zieleni tworzą uporządkowaną kompozycję,
-  której stabilność zostaje przełamana przez czerwone osie i ukośne cięcia.
-  Drobne koła i prostokątne znaki pojawiają się jak punkty orientacyjne w
-  abstrakcyjnej przestrzeni, nadając całości precyzyjny, niemal konstrukcyjny
+description: Duże pola żółci, zieleni i oliwkowej zieleni tworzą uporządkowaną
+  kompozycję, której stabilność zostaje przełamana przez czerwone osie i ukośne
+  cięcia. Drobne koła i prostokątne znaki pojawiają się jak punkty orientacyjne
+  w abstrakcyjnej przestrzeni, nadając całości precyzyjny, niemal konstrukcyjny
   rytm. Obraz balansuje pomiędzy geometrią a intuicją, pomiędzy porządkiem a
   świadomym przesunięciem jego reguł. „Shifted Balance” mówi o równowadze, która
   nie wynika z idealnej symetrii, lecz z napięcia pomiędzy różnymi siłami
   utrzymującymi całość w jednym układzie.
-
-
-  Jedyny fizyczny egzemplarz tej pracy. Po sprzedaży edycja zostaje zamknięta i nie będzie ponownie drukowana.
-year: 2026
-medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny na płótnie Imprime
-  390 g/m²
-dimensions: 50 x 70 cm
+year: 2025
+medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny
+dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
 certificate: Sygnowana praca z Certyfikatem Autentyczności
-price: 550 zł
+price: "50 × 70 cm — płótno cena: 1200 zł | 30 × 42 cm — papier Fine Art cena: 300 zł"
 en:
   title: SHIFTED BALANCE
   series: ""
@@ -37,11 +32,12 @@ en:
 
 
     The only physical copy of this artwork. Once sold, the edition is permanently closed and will not be reprinted.
-  medium: Original digital artwork, fine art pigment print on Imprime 390 g/m² canvas
-  edition: Unique edition 1/1 — no reprints
+  medium: Original digital artwork, pigment-based fine art print
+  edition: "Imprime 390 g/m² canvas — Limited Edition: 3 copies | Fine Art paper —
+    Limited Edition: 5 copies"
   certificate: Signed artwork with Certificate of Authenticity
 featured: true
-edition: Unikatowa edycja 1/1 — bez dodruków
+edition: Autorska grafika cyfrowa, pigmentowy druk artystyczny
 sold: false
 order: 16
 selected: false
