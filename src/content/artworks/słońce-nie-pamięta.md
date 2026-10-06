@@ -14,7 +14,7 @@ description: Monumentalne czerwone koło zawieszone nad rozdzielonymi polami
 year: 2026
 medium: " Grafika autorska - Pigmentowy druk artystyczny"
 dimensions: 30 x 42 cm
-edition: " Edycja limitowana: 10 egzemplarzy / SOLUTION White Velvet 270 g/m²Unikat"
+edition: " Edycja limitowana: 10 egzemplarzy / SOLUTION White Velvet 270 g/m²"
 certificate: " Sygnowana i numerowana / Certyfikat Autentyczności"
 price: 350 zł
 sold: false
