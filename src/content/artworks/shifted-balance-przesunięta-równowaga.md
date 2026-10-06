@@ -13,7 +13,7 @@ description: Duże pola żółci, zieleni i oliwkowej zieleni tworzą uporządko
   nie wynika z idealnej symetrii, lecz z napięcia pomiędzy różnymi siłami
   utrzymującymi całość w jednym układzie.
 year: 2025
-medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny
+medium: " Grafika autorska - Pigmentowy druk artystyczny"
 dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
 certificate: Sygnowana praca z Certyfikatem Autentyczności
 price: "50 × 70 cm — płótno cena: 1200 zł | 30 × 42 cm — papier Fine Art cena: 300 zł"
