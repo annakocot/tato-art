@@ -13,7 +13,7 @@ description: Kompozycja opiera się na wyraźnym zderzeniu dwóch pól koloru,
   „Intersection” jest obrazem o miejscu styku — o momencie, w którym dwie różne
   struktury spotykają się, przecinają i zaczynają wpływać na siebie nawzajem.
 year: 2026
-medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny
+medium: " Grafika autorska - Pigmentowy druk artystyczny"
 dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
 certificate: Sygnowana praca z Certyfikatem Autentyczności
 price: "50 × 70 cm — płótno cena: 1200 zł | 30 × 42 cm — papier Fine Art cena: 300 zł"
