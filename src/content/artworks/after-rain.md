@@ -13,7 +13,7 @@ description: „Zakłócenie” to abstrakcyjna kompozycja oparta na kontraście
   świecie pełnym informacji, w którym coraz więcej widzimy, ale niekoniecznie
   coraz więcej rozumiemy.
 year: 2026
-medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny.
+medium: Grafika autorska - Pigmentowy druk artystyczny
 dimensions: 50 × 70 cm — płótno |  30 × 42 cm — papier Fine Art
 certificate: Sygnowana praca z Certyfikatem Autentyczności
 price: "50 × 70 cm — płótno cena: 1200 zł |  30 × 42 cm — papier Fine Art cena:
