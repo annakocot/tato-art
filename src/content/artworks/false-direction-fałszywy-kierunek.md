@@ -15,7 +15,7 @@ description: Monumentalne pole czerni zostaje przecięte przez pionowe pasy
   pełnej znaków — sytuacji, w której informacji jest coraz więcej, a pewność
   kierunku wcale nie staje się większa.
 year: 2026
-medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny
+medium: Autorska grafika wykonana na koputerze {cyfrowa}, pigmentowy druk artystyczny
 dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
 certificate: Certyfikat autentyczności w zestawie
 price: "50 × 70 cm — płótno cena: 1200 zł | 30 × 42 cm — papier Fine Art cena: 300 zł"
