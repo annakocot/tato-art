@@ -11,7 +11,7 @@ description: Duże pola koloru spotykają się w pozornie prostym układzie, kt�
   porządkiem a przypadkiem, obecnością a pustką. To właśnie tam pojawia się
   napięcie, które utrzymuje cały obraz w równowadze.
 year: 2026
-medium: Autorska grafika komputerowa - Pigmentowy druk artystyczny
+medium: Grafika autorska - Pigmentowy druk artystyczny
 dimensions: 30 x 42 cm
 edition: "Edycja limitowana: 10 egzemplarzy / SOLUTION White Velvet 270 g/m²"
 certificate: Sygnowana i numerowana / Certyfikat Autentyczności
