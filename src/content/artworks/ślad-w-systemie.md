@@ -17,7 +17,7 @@ edition: "Edycja limitowana: 10 egzemplarzy / SOLUTION White Velvet 270 g/m²Uni
 certificate: Sygnowana i numerowana / Certyfikat Autentyczności
 price: 350 zł
 sold: false
-order: 100
+order: 41
 selected: false
 en:
   title: TRACE WITHIN THE SYSTEM
