@@ -30,7 +30,7 @@ en:
     between order and chance, silence and sensory overload. It is a work about
     communication in a world full of information, where we see more and more but
     do not necessarily understand more."
-  medium: Original digital artwork, pigment-based fine art print
+  medium: Original artwork, pigment-based fine art print
   edition: 50 × 70 cm — canvas | 30 × 42 cm — Fine Art paper
   certificate: Certificate of Authenticity included
 featured: true
