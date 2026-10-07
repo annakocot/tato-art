@@ -31,7 +31,7 @@ en:
     without leading to any obvious destination. False Direction can be read as
     an image of finding one’s way through a reality full of signs, where more
     information does not necessarily bring greater certainty.
-  medium: Original digital artwork, pigment-based fine art print
+  medium: Original artwork, pigment-based fine art print
   edition: "Imprime 390 g/m² canvas — Limited Edition: 3 copies | Fine Art paper —
     Limited Edition: 5 copies"
   certificate: Certificate of Authenticity included
