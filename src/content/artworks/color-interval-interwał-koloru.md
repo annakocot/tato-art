@@ -38,7 +38,7 @@ en:
 
 
     The only physical copy of this artwork. Once sold, the edition is permanently closed and will not be reprinted.
-  medium: Original digital artwork, pigment-based fine art print
+  medium: Original artwork, pigment-based fine art print
   edition: "Imprime 390 g/m² canvas — Limited Edition: 3 copies | Fine Art paper —
     Limited Edition: 5 copies"
   certificate: Certificate of Authenticity included
