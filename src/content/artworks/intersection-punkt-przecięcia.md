@@ -3,7 +3,11 @@ title: Punkt przecięcia
 series: ""
 artworkId: DK-2026-0012
 image: ../../assets/uploads/28-07-2026-minimal-art-seria10-4.png
-alt: Punkt przecięcia — abstrakcyjna kompozycja Dariusza Kocota
+alt: Kompozycja opiera się na wyraźnym zderzeniu dwóch pól koloru, rozdzielonych
+  intensywną niebieską osią, która porządkuje cały obraz. Krzyże, koła i
+  prostokątne moduły pojawiają się jak znaki umieszczone w precyzyjnie
+  zaprojektowanym systemie, ale ich rozmieszczenie wprowadza lekki niepokój i
+  asymetrię.
 description: Kompozycja opiera się na wyraźnym zderzeniu dwóch pól koloru,
   rozdzielonych intensywną niebieską osią, która porządkuje cały obraz. Krzyże,
   koła i prostokątne moduły pojawiają się jak znaki umieszczone w precyzyjnie
@@ -29,10 +33,10 @@ en:
     creating tension between energy and stability. Intersection concerns a point
     of contact: the moment when two different structures meet, cross and begin
     to influence each other."
-  medium: Original digital artwork, pigment-based fine art print
+  medium: Original artwork, pigment-based fine art print
   edition: "Imprime 390 g/m² canvas — Limited Edition: 3 copies | Fine Art paper —
     Limited Edition: 5 copies"
-  certificate: Certificate of Authenticity included
+  certificate: Certificate of Authenticity included.
 featured: true
 edition: "Płótno Imprime 390 g/m² - Edycja limitowana: 3 egzemplarze / Papier
   Fine Art - Edycja limitowana: 5 egzemplarze"
