@@ -14,7 +14,7 @@ description: Rozbita siatka, warstwy faktury i zdecydowane pola koloru tworzą
   momencie, w którym porządek jeszcze istnieje, ale jego granice zaczynają się
   przesuwać.
 year: 2026
-medium: Grafika autorska - Pigmentowy druk artystyczny
+medium: Grafika autorska | Profesjonalny druk Fine Art
 dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
 certificate: Certyfikat autentyczności w zestawie
 price: "50 × 70 cm — płótno cena: 1200 zł | 30 × 42 cm — papier Fine Art cena: 300 zł"
@@ -33,7 +33,7 @@ en:
     and abrasions continually disrupt it. Fault Line explores the tension
     between stability and disintegration: the moment when order still exists but
     its boundaries begin to shift."
-  medium: Original artwork, pigment-based fine art print
+  medium: Original Graphic Artwork | Professional Fine Art Print
   edition: "Imprime 390 g/m² canvas — Limited Edition: 3 copies | Fine Art paper —
     Limited Edition: 5 copies"
   certificate: Certificate of Authenticity included
