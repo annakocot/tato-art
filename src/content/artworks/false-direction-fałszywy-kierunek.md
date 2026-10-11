@@ -15,7 +15,7 @@ description: Monumentalne pole czerni zostaje przecięte przez pionowe pasy
   pełnej znaków — sytuacji, w której informacji jest coraz więcej, a pewność
   kierunku wcale nie staje się większa.
 year: 2026
-medium: Grafika autorska - Pigmentowy druk artystyczny
+medium: Grafika autorska | Profesjonalny druk Fine Art
 dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
 certificate: Certyfikat autentyczności w zestawie
 price: "50 × 70 cm — płótno cena: 1200 zł | 30 × 42 cm — papier Fine Art cena: 300 zł"
@@ -31,7 +31,7 @@ en:
     without leading to any obvious destination. False Direction can be read as
     an image of finding one’s way through a reality full of signs, where more
     information does not necessarily bring greater certainty.
-  medium: Original artwork, pigment-based fine art print
+  medium: Original Graphic Artwork | Professional Fine Art Print
   edition: "Imprime 390 g/m² canvas — Limited Edition: 3 copies | Fine Art paper —
     Limited Edition: 5 copies"
   certificate: Certificate of Authenticity included
