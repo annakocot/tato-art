@@ -14,7 +14,7 @@ description: >
   ruchu, dystansie i możliwości wyboru kierunku bez konieczności wyznaczania
   jednego celu.
 year: 2026
-medium: Autorska grafika cyfrowa, pigmentowy druk artystyczny
+medium: Grafika autorska | Profesjonalny druk Fine Art
 dimensions: 50 × 70 cm — płótno | 30 × 42 cm — papier Fine Art
 certificate: Sygnowana praca z Certyfikatem Autentyczności
 price: "50 × 70 cm — płótno cena: 1200 zł | 30 × 42 cm — papier Fine Art cena: 300 zł"
@@ -30,7 +30,7 @@ en:
     Field can be read as an image of freedom of movement, distance and the
     possibility of choosing a direction without having to define a single
     destination.
-  medium: Original digital artwork, pigment-based fine art print
+  medium: Original Graphic Artwork | Professional Fine Art Print
   edition: "Imprime 390 g/m² canvas — Limited Edition: 3 copies | Fine Art paper —
     Limited Edition: 5 copies"
   certificate: Signed artwork with Certificate of Authenticity
